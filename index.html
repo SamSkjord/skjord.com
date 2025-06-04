@@ -5,16 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Skjord</title>
 
+  <!-- Particle.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.0/particles.min.js"></script>
 
   <style>
     html, body {
-      height: 100%;
-      width: 100%;
       margin: 0;
       padding: 0;
-      background-color: #312F2A;
+      height: 100%;
+      width: 100%;
+      background-color: #111111;
       background-image: none !important;
+      overflow: hidden;
     }
 
     canvas.background {
@@ -45,8 +47,19 @@
   <script>
     Particles.init({
       selector: '.background',
-      color: ['#00F1FF', '#0161E8', '#290CFF', '#9B00E8', '#FF019A'],
-      connectParticles: true
+      color: ['#BFDD0D', '#A7A8A9', '#FFFFFF'],
+      connectParticles: true,
+      maxParticles: 100,
+      sizeVariations: 4,
+      speed: 0.4,
+      responsive: [
+        {
+          breakpoint: 768,
+          options: {
+            maxParticles: 50
+          }
+        }
+      ]
     });
   </script>
 </body>
