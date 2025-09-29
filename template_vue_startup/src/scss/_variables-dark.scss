@@ -124,7 +124,7 @@ $body-font-weight-dark:                         300 !default;
 $body-letter-spacing-dark:                      rem(.75px) !default;
 $body-bg-dark:                                  #1d2835 !default;
 $body-bg-gradient-dark:                         linear-gradient(180deg, rgba(50,70,80,.9) 0%, rgba(13,16,27,1) 100%) !default;
-$body-bg-cover-dark:                            url('images/cover-dark.jpg') !default;
+$body-bg-cover-dark:                            none !default;
 $body-bg-image-dark:                            url('images/pattern-dark.png') !default;
 $body-bg-image-size-dark:                       rem(75px) !default;
 $body-color-dark:                               rgba($white, .75) !default;

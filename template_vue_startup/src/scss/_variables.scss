@@ -301,7 +301,7 @@ $prefix: bs- !default;
 
 $body-bg: $white !default;
 $body-bg-gradient: linear-gradient(180deg, rgba($white, .90) 0%, rgba($white, .99) 100%) !default;
-$body-bg-cover: url('images/cover.jpg') !default;
+$body-bg-cover: none !default;
 $body-bg-image: url('images/pattern.png') !default;
 $body-bg-image-size: rem(75px) !default;
 $body-letter-spacing: rem(.75px) !default;

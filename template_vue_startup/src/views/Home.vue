@@ -29,7 +29,7 @@ export default {
 
               <hr class="mt-4 mb-4">
               
-              <a href="mailto:contact@skjod.com" target="_blank" class="btn d-block btn-outline-theme mb-3">
+              <a href="mailto:contact@skjord.com" target="_blank" class="btn d-block btn-outline-theme mb-3">
                 <i class="fa-solid f631 opacity-5"></i> Contact
               </a>
 
@@ -142,48 +142,6 @@ export default {
                             </card-body>
                           </card>
                         </div>
-
-                        <!--
-                        <div class="list-group-item px-3">
-                          <card class="mb-1">
-                            <card-body>
-                              <img src="/assets/logos/grafana.png" alt="Grafana" class="card-img-top" />
-                            </card-body>
-                          </card>
-                        </div>
-
-                        <div class="list-group-item px-3">
-                          <card class="mb-1">
-                            <card-body>
-                              <img src="/assets/logos/influx.png" alt="InfluxDB" class="card-img-top" />
-                            </card-body>
-                          </card>
-                        </div>
-
-                        <div class="list-group-item px-3">
-                          <card class="mb-3">
-                            <card-body>
-                              <img src="/assets/logos/lorawan.png" alt="LoRaWAN" class="card-img-top" />
-                            </card-body>
-                          </card>
-                        </div>
-
-                        <div class="list-group-item px-3">
-                          <card class="mb-3">
-                            <card-body>
-                              <img src="/assets/logos/mssql.png" alt="MS SQL" class="card-img-top" />
-                            </card-body>
-                          </card>
-                        </div>
-
-                        <div class="list-group-item px-3">
-                          <card class="mb-1">
-                            <card-body>
-                              <img src="/assets/logos/aws.png" alt="AWS" class="card-img-top" />
-                            </card-body>
-                          </card>
-                        </div>
-                        -->
                       </div>
                     </card>
                   </div>
