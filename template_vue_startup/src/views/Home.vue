@@ -14,7 +14,7 @@ export default {
           <div class="profile-sidebar">
             <div class="desktop-sticky-top">
               <!-- profile info -->
-              <h4>Skjord Ltd</h4>
+              <h4>Skjord Ltd.</h4>
 
               <p>
                 Skjord helps organisations connect their systems, see what's really happening, and keep critical operations running smoothly.
@@ -29,7 +29,7 @@ export default {
 
               <hr class="mt-4 mb-4">
               
-              <a href="mailto:contact@skjord.com" target="_blank" class="btn d-block btn-outline-theme mb-3">
+              <a href="mailto:contact@skjod.com" target="_blank" class="btn d-block btn-outline-theme mb-3">
                 <i class="fa-solid f631 opacity-5"></i> Contact
               </a>
 
@@ -68,26 +68,24 @@ export default {
                           </div>
 
                           <!-- post content -->
-                          <p>
+                          <div class="mb-3">
                             <div class="fw-bold">Integrate</div>
                             Connect security, access control, and building management platforms with modern APIs and cloud services. We design and deliver scalable integrations that reduce duplication, simplify workflows, and extend the capabilities of existing infrastructure.
-                          </p>
+                          </div>
 
-                          <p>
+                          <div class="mb-3">
                             <div class="fw-bold">Observe</div>
                             Surface the right data with tools like InfluxDB, Grafana, and custom dashboards. We make complex environments transparent so teams can understand performance in real time and spot issues before they escalate.
-                          </p>
+                          </div>
 
-                          <p>
+                          <div class="mb-3">
                             <div class="fw-bold">Act</div>
                             Off-the-shelf monitoring rarely covers every need. We build tailored alerting and response systems for critical hardware and software, from LoRaWAN devices to enterprise security platforms—ensuring the right people know when to take action.
-                          </p>
+                          </div>
 
-                          <p>
-                            <div class="fw-bold">
-                              At Skjord, we focus on practical engineering—bridging legacy systems with modern architectures to deliver solutions that are robust, maintainable, and built around real customer needs.
-                            </div>
-                          </p>
+                          <div class="fw-bold">
+                            At Skjord, we focus on practical engineering—bridging legacy systems with modern architectures to deliver solutions that are robust, maintainable, and built around real customer needs.
+                          </div>
                         </card-body>
                       </card>
                     </div>
@@ -142,6 +140,48 @@ export default {
                             </card-body>
                           </card>
                         </div>
+
+                        <!--
+                        <div class="list-group-item px-3">
+                          <card class="mb-1">
+                            <card-body>
+                              <img src="/assets/logos/grafana.png" alt="Grafana" class="card-img-top" />
+                            </card-body>
+                          </card>
+                        </div>
+
+                        <div class="list-group-item px-3">
+                          <card class="mb-1">
+                            <card-body>
+                              <img src="/assets/logos/influx.png" alt="InfluxDB" class="card-img-top" />
+                            </card-body>
+                          </card>
+                        </div>
+
+                        <div class="list-group-item px-3">
+                          <card class="mb-3">
+                            <card-body>
+                              <img src="/assets/logos/lorawan.png" alt="LoRaWAN" class="card-img-top" />
+                            </card-body>
+                          </card>
+                        </div>
+
+                        <div class="list-group-item px-3">
+                          <card class="mb-3">
+                            <card-body>
+                              <img src="/assets/logos/mssql.png" alt="MS SQL" class="card-img-top" />
+                            </card-body>
+                          </card>
+                        </div>
+
+                        <div class="list-group-item px-3">
+                          <card class="mb-1">
+                            <card-body>
+                              <img src="/assets/logos/aws.png" alt="AWS" class="card-img-top" />
+                            </card-body>
+                          </card>
+                        </div>
+                        -->
                       </div>
                     </card>
                   </div>

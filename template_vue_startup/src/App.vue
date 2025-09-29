@@ -11,7 +11,9 @@ onMounted(() => {
 	<div class="app">
 		<app-header />
 		<main class="app-content">
-			<router-view />
+			<div class="app-content-container">
+				<router-view />
+			</div>
 		</main>
 	</div>
 </template>
