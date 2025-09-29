@@ -233,7 +233,7 @@ $visibility-values: (none, initial);
 .desktop-sticky-top {
 	@include media-breakpoint-up(xl) {
 		position: sticky;
-		top: $app-header-height + rem(20px);
+		top: 0;
 	}
 }
 
