@@ -13,6 +13,9 @@ export default {
           <!-- BEGIN profile-sidebar -->
           <div class="profile-sidebar">
             <div class="desktop-sticky-top">
+            		<div class="profile-img">
+								<img src="/assets/logo.png" alt="">
+							</div>
               <!-- profile info -->
               <h4>Skjord Ltd.</h4>
 
@@ -80,11 +83,11 @@ export default {
 
                           <div class="mb-3">
                             <div class="fw-bold">Act</div>
-                            Off-the-shelf monitoring rarely covers every need. We build tailored alerting and response systems for critical hardware and software, from LoRaWAN devices to enterprise security platforms—ensuring the right people know when to take action.
+                            Off-the-shelf monitoring rarely covers every need. We build tailored alerting and response systems for critical hardware and software, from LoRaWAN devices to enterprise security platforms, so the right people know when to take action.
                           </div>
 
                           <div class="fw-bold">
-                            At Skjord, we focus on practical engineering—bridging legacy systems with modern architectures to deliver solutions that are robust, maintainable, and built around real customer needs.
+                            At Skjord, we focus on practical engineering: bridging legacy systems with modern architectures to deliver solutions that are robust, maintainable, and built around real customer needs.
                           </div>
                         </card-body>
                       </card>
