@@ -32,7 +32,7 @@ export default {
 
               <hr class="mt-4 mb-4">
               
-              <a href="mailto:contact@skjod.com" target="_blank" class="btn d-block btn-outline-theme mb-3">
+              <a href="mailto:contact@skjord.com" target="_blank" class="btn d-block btn-outline-theme mb-3">
                 <i class="fa-solid f631 opacity-5"></i> Contact
               </a>
 
