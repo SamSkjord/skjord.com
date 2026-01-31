@@ -14,5 +14,18 @@ export default defineConfig({
   },
   optimizeDeps: {
     exclude: ['vue-demi']
-	}
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor-vue': ['vue', 'vue-router'],
+          'vendor-bootstrap': ['bootstrap'],
+        }
+      }
+    },
+    cssCodeSplit: true,
+    minify: 'esbuild',
+    target: 'es2020'
+  }
 });

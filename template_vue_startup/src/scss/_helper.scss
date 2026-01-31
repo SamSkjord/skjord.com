@@ -56,7 +56,7 @@
 
 
 /* Helper Font */
-@include helper-font-size(0, 80);
+@include helper-font-size(10, 40);
 @include helper-font-weight(1, 8);
 
 
@@ -80,46 +80,15 @@
 .cursor-progress { cursor: progress !important }
 
 
-/* Helper Position Responsive */
+/* Helper Position (non-responsive only - responsive variants removed for performance) */
 $positions: (static, relative, absolute, fixed, sticky);
-$transform-values: (none, initial);
-$visibility-values: (none, initial);
-@each $breakpoint, $size in $grid-breakpoints {
-	@each $position in $positions {
-		@if $breakpoint == xs {
-			.position-#{$position} { position: $position !important; }
-		} @else {
-			@media (min-width: $size) {
-				.position-#{$breakpoint}-#{$position} { position: $position !important; }
-			}
-		}
-	}
-	@each $value in $transform-values {
-		@if $breakpoint == xs {
-			.transform-#{$value} { transform: #{$value} !important; }
-		} @else {
-			@media (min-width: $size) {
-				.transform-#{$breakpoint}-#{$value} { transform: #{$value} !important; }
-			}
-		}
-	}
-	@each $value in $visibility-values {
-		@if $breakpoint == xs {
-			.visibility-#{$value} { visibility: #{$value} !important; }
-		} @else {
-			@media (min-width: $size) {
-				.visibility-#{$breakpoint}-#{$value} { visibility: #{$value} !important; }
-			}
-		}
-	}
-	@each $name, $value in $zindex-levels {
-    .z-#{$breakpoint}-#{$name} {
-      @include media-breakpoint-up($breakpoint) {
-        z-index: $value !important;
-      }
-    }
-  }
+@each $position in $positions {
+	.position-#{$position} { position: $position !important; }
 }
+.transform-none { transform: none !important; }
+.transform-initial { transform: initial !important; }
+.visibility-none { visibility: hidden !important; }
+.visibility-initial { visibility: initial !important; }
 
 
 /* Helper Text */
